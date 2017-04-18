@@ -23,7 +23,7 @@
 #
 
 # Inherit from sdm660-common
--include device/xiaomi/sdm660-common/BoardConfigCommon.mk
+include device/xiaomi/sdm660-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/lavender
 
@@ -67,4 +67,4 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 VENDOR_SECURITY_PATCH := 2019-10-05
 
 # Inherit the proprietary files
--include vendor/xiaomi/lavender/BoardConfigVendor.mk
+include vendor/xiaomi/lavender/BoardConfigVendor.mk
