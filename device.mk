@@ -68,5 +68,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     LavenderWifiOverlay
 
-# Inherit proprietary files
-$(call inherit-product-if-exists, vendor/xiaomi/lavender/lavender-vendor.mk)
+# Inherit the proprietary files
+$(call inherit-product, vendor/xiaomi/wayne/wayne-vendor.mk)
