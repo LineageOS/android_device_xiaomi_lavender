@@ -52,7 +52,8 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    fstab.qcom
+    fstab.qcom \
+    init.device.rc
 
 # Sensors
 PRODUCT_COPY_FILES += \
