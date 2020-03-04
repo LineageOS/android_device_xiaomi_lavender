@@ -28,11 +28,14 @@
 DEVICE_PATH := device/xiaomi/lavender
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := lavender,lavender
+TARGET_OTA_ASSERT_DEVICE := lavender
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2160
+TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
+
+# Display
+TARGET_SCREEN_DENSITY := 420
 
 # FM
 AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
@@ -44,16 +47,15 @@ TARGET_KERNEL_CONFIG := lavender_defconfig
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest.xml
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/configs/vendor_framework_compatibility_matrix.xml
 
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3221225472
-BOARD_VENDORIMAGE_PARTITION_SIZE := 2147483648
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3640619008
+BOARD_VENDORIMAGE_PARTITION_SIZE := 2080305152
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2018-11-01
+VENDOR_SECURITY_PATCH := 2019-10-05
 
 # Inherit the proprietary files
 -include vendor/xiaomi/lavender/BoardConfigVendor.mk
