@@ -85,16 +85,6 @@ on boot
     chmod 0770 /sys/class/power_supply/battery/device/thermalcall
     chown system system /sys/class/power_supply/battery/device/thermalcall
 
-    # Enable camera read sensors data
-    setprop persist.camera.gyro.disable 0
-
-on post-fs-data
-    mkdir /persist/qti_fp 0700 system system
-    mkdir /mnt/vendor/persist/fpc 0770 system system	
-    copy /data/vendor/fpc/user.db /data/vendor_de/0/fpdata/user.db	
-    chown system system /data/vendor_de/0/fpdata/user.db	
-    rm /data/vendor/fpc/user.db
-
 # Workaround for camera HAL can not read sys property
 on property:sys.camera.face.unlock=*
     setprop vendor.camera.face.unlock ${sys.camera.face.unlock}
