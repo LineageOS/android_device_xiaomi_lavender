@@ -17,7 +17,7 @@
 
 set -e
 
-export DEVICE=twolip
+export DEVICE=lavender
 export VENDOR=xiaomi
 export DEVICE_COMMON=sdm660-common
 

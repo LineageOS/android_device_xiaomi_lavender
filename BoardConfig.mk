@@ -25,10 +25,10 @@
 # Inherit from sdm660-common
 -include device/xiaomi/sdm660-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/twolip
+DEVICE_PATH := device/xiaomi/lavender
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := tulip,twolip
+TARGET_OTA_ASSERT_DEVICE := lavender,lavender
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2160
@@ -40,7 +40,7 @@ BOARD_HAS_QCA_FM_SOC := cherokee
 BOARD_HAVE_QCOM_FM := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := tulip_defconfig
+TARGET_KERNEL_CONFIG := lavender_defconfig
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest.xml
@@ -56,4 +56,4 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 VENDOR_SECURITY_PATCH := 2018-11-01
 
 # Inherit the proprietary files
--include vendor/xiaomi/twolip/BoardConfigVendor.mk
+-include vendor/xiaomi/lavender/BoardConfigVendor.mk

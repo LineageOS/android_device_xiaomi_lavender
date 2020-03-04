@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_twolip.mk
+    $(LOCAL_DIR)/lineage_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_twolip-user \
-    lineage_twolip-userdebug \
-    lineage_twolip-eng
+    lineage_lavender-user \
+    lineage_lavender-userdebug \
+    lineage_lavender-eng

@@ -24,7 +24,7 @@
 # Inherit from sdm660-common
 $(call inherit-product, device/xiaomi/sdm660-common/sdm660.mk)
 
-DEVICE_PATH := device/xiaomi/twolip
+DEVICE_PATH := device/xiaomi/lavender
 
 # Inherit properties.mk
 $(call inherit-product, $(DEVICE_PATH)/properties.mk)
@@ -76,4 +76,4 @@ PRODUCT_PACKAGES += \
     libMiWatermark_shim
 
 # Inherit proprietary files
-$(call inherit-product-if-exists, vendor/xiaomi/twolip/twolip-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/lavender/lavender-vendor.mk)
