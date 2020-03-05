@@ -68,5 +68,9 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     $(DEVICE_PATH)/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf
 
+# Shims
+PRODUCT_PACKAGES += \
+    libcamera_sdm660_shim
+
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/lavender/lavender-vendor.mk)
