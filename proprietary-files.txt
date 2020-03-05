@@ -50,6 +50,10 @@ vendor/lib/libsymphonypower.so
 vendor/lib/libvideoutils.so
 vendor/lib/libvidhance.so
 vendor/lib/libvidhance_gyro.so
+vendor/lib/libFaceGrade.so
+vendor/lib/libdng_sdkvendor.so
+vendor/lib/libft2vendor.so
+vendor/lib/miwatermark.so
 
 # Camera - libmmcamera
 vendor/lib/libmmcamera2_c2d_module.so
@@ -1160,6 +1164,7 @@ vendor/bin/thermal-engine
 -vendor/lib/libthermalclient.so
 -vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
+vendor/lib64/libthermalfeature.so
 
 # Wifi
 vendor/bin/cnss-daemon
