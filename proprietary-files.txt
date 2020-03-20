@@ -1084,6 +1084,7 @@ vendor/lib64/libgf_hal.so
 vendor/lib64/libqfp-service.so
 vendor/lib64/libvendor.goodix.hardware.interfaces.biometrics.fingerprint@2.1.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
+vendor/lib64/libgoodixhwfingerprint.so
 
 # FM
 lib/fm_helium.so
