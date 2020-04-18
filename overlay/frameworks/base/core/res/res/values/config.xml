@@ -126,7 +126,8 @@
     <!-- Height of the status bar -->
     <dimen name="status_bar_height_portrait">80px</dimen>
     <dimen name="status_bar_height_landscape">24dp</dimen>
-    <dimen name="rounded_corner_radius_top">96px</dimen>
+    <dimen name="rounded_corner_radius_top">106.0px</dimen>
+    <dimen name="rounded_corner_radius_bottom">108.0px</dimen>
 
     <!-- List supported color modes. -->
     <integer-array name="config_availableColorModes">
