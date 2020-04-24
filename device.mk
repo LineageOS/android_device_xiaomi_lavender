@@ -64,5 +64,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
 
+# Wifi
+PRODUCT_PACKAGES += \
+    LavenderWifiOverlay
+
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/lavender/lavender-vendor.mk)
