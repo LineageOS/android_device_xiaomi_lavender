@@ -1121,31 +1121,31 @@ vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqtikeymaster4.so
 
 # Sensors
-vendor/bin/sensors.qti
-vendor/etc/sensors/hals.conf|2be83209bb5319b4a3c75338c24852f89ddc1df7
-vendor/etc/sensors/sensor_def_qcomdev.conf
-vendor/lib/hw/activity_recognition.sdm660.so
-vendor/lib/libsensor_reg.so
-vendor/lib/libsensor1.so
-vendor/lib64/hw/activity_recognition.sdm660.so
-vendor/lib64/libsensor_reg.so
-vendor/lib64/libsensor1.so
-vendor/lib64/sensors.elliptic.so
+vendor/bin/sensors.qti|c6e08244eb3def26c8e355cc0e1c0e6eaeb77892
+vendor/etc/sensors/hals.conf|3a4016f373a0df8ce9d7c6cc6e363238d946e6f6
+vendor/etc/sensors/sensor_def_qcomdev.conf|3ce1145d65ade70300feadf971e69ad6f522a749
+vendor/lib/hw/activity_recognition.sdm660.so|9114ef1cdf5cd48b62bb7023b776c2abb32d357e
+vendor/lib/libsensor_reg.so|2d865aa3ddb4d15e8cba16a5d133886480d3ee8e
+vendor/lib/libsensor1.so|fde24e9290da09cc81c8de5b057acb3383a02081
+vendor/lib64/hw/activity_recognition.sdm660.so|b1c0be438f80e92acb931b101da52a98599f3005
+vendor/lib64/libsensor_reg.so|d39e690d68f53f0032518d4f5ddae8b075ea44cb
+vendor/lib64/libsensor1.so|16469d36e6ada214c2741e2490f5ea1a363e96f5
+vendor/lib64/sensors.elliptic.so|9a6f4e7e1556e110955330588ca02d1898367d5f
 
 # Sensors - from PL2_sprout-user 10 QKQ1.190828.002 00WW_4_150
 vendor/lib/sensors.ssc.so|bee13b2ad7f1ef0d2cf63708fa38ad76877ea287
 vendor/lib64/sensors.ssc.so|42577aa881baa287ec037c0e59972ad0e0358b08
 
 # Thermal
-vendor/etc/thermal-engine-camera.conf
-vendor/etc/thermal-engine.conf
-vendor/etc/thermal-engine-map.conf
-vendor/etc/thermal-engine-normal.conf
-vendor/bin/thermal-engine
--vendor/lib/libthermalclient.so
--vendor/lib64/libthermalclient.so
-vendor/lib64/libthermalioctl.so
-vendor/lib64/libthermalfeature.so
+vendor/etc/thermal-engine-camera.conf|db9829a655ca0c3013448e6a4aee3fcce9f90ca2
+vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
+vendor/etc/thermal-engine-map.conf|19c9ec67a63568470061413e47d420321040ef2a
+vendor/etc/thermal-engine-normal.conf|f44b43de8ec730aed99e289be99c7fc814da5e94
+vendor/bin/thermal-engine|8b77c4541d74abb4d17e5b46dbfcf46ea7290283
+-vendor/lib/libthermalclient.so|c3aecc7610e8f5775a6f6af2ff7790bef74380a1
+-vendor/lib64/libthermalclient.so|84072e150722cc668320f07a75cb8695ce1a79b0
+vendor/lib64/libthermalioctl.so|d7055e46d8ba5e83b213c5f38d936f3ea71003c2
+vendor/lib64/libthermalfeature.so|1c408911610e5b6a11853aff1900860f9e9a861f
 
 # Wifi
 vendor/bin/cnss-daemon
