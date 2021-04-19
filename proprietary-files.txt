@@ -1,3 +1,5 @@
+# Device proprietary files - from lavender-user 9 PKQ1.180904.001 V10.3.6.0.PFGMIXM release-keys
+
 # Audio ACDB
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
