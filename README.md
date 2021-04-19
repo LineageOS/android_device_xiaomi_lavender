@@ -7,9 +7,9 @@ The Xiaomi Redmi Note 7 (codenamed _"lavender"_) is a mid-range smartphone from 
 | SoC                     | Qualcomm SDM660 Snapdragon 660                              |
 | CPU                     | 8x Qualcomm® Kryo™ 260 CPU up to 1.8GHz                     |
 | GPU                     | Adreno 512                                                  |
-| Memory                  | 4GB / 6GB RAM (LPDDR4X)                                     |
+| Memory                  | 3GB / 4GB / 6GB RAM (LPDDR4X)                               |
 | Shipped Android version | 9                                                           |
-| Storage                 | 64/128GB eMMC 5.1 flash storage                             |
+| Storage                 | 32 / 64 / 128GB eMMC 5.1 flash storage                      |
 | MicroSD                 | Up to 256 GB                                                |
 | Battery                 | Non-removable Li-Po 4000 mAh                                |
 | Dimensions              | 159.21 x 75.21 x 8.1 mm                                     |
