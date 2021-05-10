@@ -1146,5 +1146,9 @@ vendor/bin/thermal-engine
 vendor/lib64/libthermalioctl.so
 vendor/lib64/libthermalfeature.so
 
+# Widevine - from lavender V12.0.1.0.QFGMIXM
+vendor/lib/liboemcrypto.so|ad286cf38f8b00a5c9b0b0f424e4a5bd1f47f046
+vendor/lib64/liboemcrypto.so|e44fa8bf9bed1541342390bf316c34fe9f29cc4e
+
 # Wifi
 vendor/bin/cnss-daemon
