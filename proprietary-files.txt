@@ -1140,6 +1140,7 @@ vendor/etc/thermal-engine-camera.conf
 vendor/etc/thermal-engine.conf
 vendor/etc/thermal-engine-map.conf
 vendor/etc/thermal-engine-normal.conf
+vendor/etc/thermal-engine-youtube.conf
 vendor/bin/thermal-engine
 -vendor/lib/libthermalclient.so
 -vendor/lib64/libthermalclient.so
