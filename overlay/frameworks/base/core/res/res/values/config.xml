@@ -132,11 +132,4 @@
     <dimen name="status_bar_height_landscape">24dp</dimen>
     <dimen name="rounded_corner_radius_top">106.0px</dimen>
     <dimen name="rounded_corner_radius_bottom">108.0px</dimen>
-
-    <!-- List supported color modes. -->
-    <integer-array name="config_availableColorModes">
-        <item>0</item> <!-- COLOR_MODE_NATURAL -->
-        <item>1</item> <!-- COLOR_MODE_BOOSTED -->
-        <item>2</item> <!-- COLOR_MODE_SATURATED -->
-    </integer-array>
 </resources>
