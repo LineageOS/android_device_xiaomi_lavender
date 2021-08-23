@@ -1033,17 +1033,19 @@ vendor/lib64/sensors.elliptic.so
 vendor/lib/sensors.ssc.so|bee13b2ad7f1ef0d2cf63708fa38ad76877ea287
 vendor/lib64/sensors.ssc.so|42577aa881baa287ec037c0e59972ad0e0358b08
 
-# Thermal
-vendor/etc/thermal-engine-camera.conf
-vendor/etc/thermal-engine.conf
-vendor/etc/thermal-engine-map.conf
-vendor/etc/thermal-engine-normal.conf
-vendor/etc/thermal-engine-youtube.conf
-vendor/bin/thermal-engine
--vendor/lib/libthermalclient.so
--vendor/lib64/libthermalclient.so
-vendor/lib64/libthermalioctl.so
-vendor/lib64/libthermalfeature.so
+# Thermal - from lavender V11.0.5.0.PFGCNXM
+vendor/etc/thermal-engine-camera.conf|db9829a655ca0c3013448e6a4aee3fcce9f90ca2
+vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
+vendor/etc/thermal-engine-map.conf|7c86d130de03ee8a0ebebc2e8f2eeda0e574cdf6
+vendor/etc/thermal-engine-normal.conf|9c875e1102da2503db5bc295327c28a4b6c6452e
+vendor/bin/thermal-engine|8b77c4541d74abb4d17e5b46dbfcf46ea7290283
+-vendor/lib/libthermalclient.so|c3aecc7610e8f5775a6f6af2ff7790bef74380a1
+-vendor/lib64/libthermalclient.so|84072e150722cc668320f07a75cb8695ce1a79b0
+vendor/lib64/libthermalioctl.so|d7055e46d8ba5e83b213c5f38d936f3ea71003c2
+vendor/lib64/libthermalfeature.so|1c408911610e5b6a11853aff1900860f9e9a861f
+
+# Thermal - from jasmine
+vendor/etc/thermal-engine-youtube.conf|d7f04f645be71847281ce1e4a2caa3bba153fcaa
 
 # Widevine - from lavender V12.0.1.0.QFGMIXM
 vendor/lib/liboemcrypto.so|ad286cf38f8b00a5c9b0b0f424e4a5bd1f47f046
