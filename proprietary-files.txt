@@ -1,4 +1,4 @@
-# Device proprietary files - from lavender-user 9 PKQ1.180904.001 V10.3.6.0.PFGMIXM release-keys
+# Device proprietary files - from lavender-user 10 QKQ1.190910.002 V12.5.3.0.QFGCNXM release-keys
 
 # Audio ACDB
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
@@ -11,7 +11,7 @@ vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
-# Camera
+# Camera - from lavender V10.3.6.0.PFGMIXM
 vendor/lib/hw/camera.sdm660.so|50e671432994ec9085810e5fa9c9c6619262bc19
 vendor/lib/libc++_shared.so|54a61595d6fee176af9aa65ff044746ed1446233
 vendor/lib/libcamera_scene.so|980ef8ec8a4b0e38cb9a6d7f84575e19fa00601d
@@ -51,20 +51,20 @@ vendor/lib/libXMFD_AgeGender.so|88654968974e4aba6c7b74346eb69ff543997047
 vendor/lib/lib_lowlight.so|d67d13627dcec095c58d8d23a392a2146fea34a0
 vendor/lib/mibokeh_660_opencl.bin|a47d3661427db459be2f1ea163d3783e1137843a
 
-# Camera-actuators
+# Camera-actuators - from lavender V10.3.6.0.PFGMIXM
 vendor/lib/libactuator_lavender_imx486_ofilm_i_bu64982.so|b9c25753bc55ded0a0ee013a0b76384d6f1cf44f
 vendor/lib/libactuator_lavender_imx486_ofilm_i_dw9714.so|c644b70ca76b3c6c9ddeaff9c56ead78f229ed46
 vendor/lib/libactuator_lavender_ov12a10_sunny_ii_dw9714.so|f6de31309ca15eeb6ea92897fb612c4271cf4762
 vendor/lib/libactuator_lavender_s5kgm1_ofilm_i_dw9800.so|bcec656c49d3955849c0c145d504963cb56945e3
 vendor/lib/libactuator_lavender_s5kgm1_sunny_ii_dw9800.so|c7d8356d62bbf33e0d0df49173fe627b5be16a07
 
-# Camera-arcsoft
+# Camera-arcsoft - from lavender V10.3.6.0.PFGMIXM
 vendor/lib/libarcsoft_beautyshot.so|c2748fb0fb0680427ffba2157288a97c140094b5
 vendor/lib/libarcsoft_dualcam_refocus.so|770936b85e0c34e065ae275e3e6e33ca77793cd2
 vendor/lib/libarcsoft_high_dynamic_range.so|1333e69886aca0dcdc34ddbd8b76ea6ee6511eea
 vendor/lib/libarcsoft_supernight.so|42212f2a3d1ba478129ef905032eb9b71776b077
 
-# Camera-chromatix
+# Camera-chromatix - from lavender V10.3.6.0.PFGMIXM
 vendor/lib/libchromatix_csidtg_common.so|7534740e704090c321d09ccb4e47fc30c89c0bf0
 vendor/lib/libchromatix_csidtg_cpp_preview.so|2223464040937c983e8c9602c029a493fca7d938
 vendor/lib/libchromatix_csidtg_postproc.so|f44b8cf96e71eb5c4d68021803e9de57727f2772
@@ -786,7 +786,7 @@ vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_zsl_preview_3a_its.so|a3c
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_zsl_preview_3a_sn.so|05db02fbf5b4450778451562f0351d120c0551a0
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_zsl_video_3a.so|319d201d818147751a35ec9baf6dbbd5c19cd03a
 
-# Camera-configs
+# Camera-configs - from lavender V10.3.6.0.PFGMIXM
 vendor/etc/camera/beauty_ui9_intelligent_params.config|3b9e28d486c65f5e23fd2a356dbbfd407e2fdfee
 vendor/etc/camera/camera_config.xml|b9fd41e4035e4f58bc3e401bfb359cb56a8becc2
 vendor/etc/camera/csidtg_camera.xml|406e2dec13dc910415ff72fc5a7ee084c97ab61f
@@ -815,7 +815,7 @@ vendor/etc/camera/model_back.dlc|faeefb05aa0c931edf018e66722d4469cd240483
 vendor/etc/camera/model_front.dlc|0624fa01607686a261fc302ad602ebc9a1f62f60
 vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin|1ca031d5f8eb0e6aa3eedf7df8d53223b5054bc5
 
-# Camera-firmware
+# Camera-firmware - from lavender V10.3.6.0.PFGMIXM
 vendor/firmware/cpp_firmware_v1_10_0.fw|a3c0fc706eb3f23b99852fe8c52c26f63999f70c
 vendor/firmware/cpp_firmware_v1_12_0.fw|c7939d46f9875054c5b30c3280862e7d9df3dcf9
 vendor/firmware/cpp_firmware_v1_1_1.fw|04b8eb253d630eaeadab296e1607dc6a29d93d3c
@@ -828,11 +828,11 @@ vendor/firmware/cpp_firmware_v1_5_2.fw|58dd7f7c09dbb62bc6f334a8885064b292610675
 vendor/firmware/cpp_firmware_v1_6_0.fw|dcd3d1f904c7ee3d731f8f28b5f78f2503916ada
 vendor/firmware/cpp_firmware_v1_8_0.fw|26e2badbb4e3049243f0a176722f26879e7b87e8
 
-# Camera-ois
+# Camera-ois - from lavender V10.3.6.0.PFGMIXM
 vendor/lib/libois_bu63165.so|1a101191e3326648d9c517f184e40255154bc993
 vendor/lib/libois_lc898122.so|26304ff7cf07d2782a79e4e743f4ce2e0a1063bf
 
-# Camera-sensors
+# Camera-sensors - from lavender V10.3.6.0.PFGMIXM
 vendor/lib/libmmcamera2_c2d_module.so|2da401444833dc09e561b52d03b0c428d4a38ac7
 vendor/lib/libmmcamera2_cpp_module.so|b2dc5f4a3290ed41291f1f0109b102e0c0f17278
 vendor/lib/libmmcamera2_frame_algorithm.so|72db2ba4edb151a13c6c29a87f861ddc5c3b8612
