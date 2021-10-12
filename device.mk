@@ -32,7 +32,8 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
-    NoCutoutOverlay
+    NoCutoutOverlay \
+    AvoidAppsInCutoutOverlay
 
 # Ramdisk
 PRODUCT_PACKAGES += \
