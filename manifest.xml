@@ -27,58 +27,29 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <hal format="hidl">
         <name>android.hardware.ir</name>
         <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IConsumerIr</name>
-            <instance>default</instance>
-        </interface>
+        <fqname>@1.0::IConsumerIr/default</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.keymaster</name>
         <transport>hwbinder</transport>
-        <version>4.0</version>
-        <interface>
-            <name>IKeymasterDevice</name>
-            <instance>default</instance>
-        </interface>
+        <fqname>@4.0::IKeymasterDevice/default</fqname>
     </hal>
     <hal format="hidl" override="true">
         <name>vendor.lineage.livedisplay</name>
         <transport>hwbinder</transport>
-        <version>2.0</version>
-        <interface>
-            <name>IAdaptiveBacklight</name>
-            <instance>default</instance>
-        </interface>
-        <interface>
-            <name>IPictureAdjustment</name>
-            <instance>default</instance>
-        </interface>
+        <fqname>@2.0::IAdaptiveBacklight/default</fqname>
+        <fqname>@2.0::IPictureAdjustment/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.goodix.hardware.interfaces.biometrics.fingerprint</name>
         <transport>hwbinder</transport>
-        <version>2.1</version>
-        <interface>
-            <name>IGoodixFingerprintDaemon</name>
-            <instance>default</instance>
-        </interface>
+        <fqname>@2.1::IGoodixFingerprintDaemon/default</fqname>
     </hal>
     <hal format="hidl">
         <name>com.fingerprints.extension</name>
         <transport>hwbinder</transport>
-        <version>2.0</version>
-        <interface>
-            <name>IFingerprintEngineering</name>
-            <instance>default</instance>
-        </interface>
-        <interface>
-            <name>IFingerprintNavigation</name>
-            <instance>default</instance>
-        </interface>
-        <interface>
-            <name>IFingerprintSensorTest</name>
-            <instance>default</instance>
-        </interface>
+        <fqname>@2.0::IFingerprintEngineering/default</fqname>
+        <fqname>@2.0::IFingerprintNavigation/default</fqname>
+        <fqname>@2.0::IFingerprintSensorTest/default</fqname>
     </hal>
 </manifest>
