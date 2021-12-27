@@ -16,6 +16,24 @@
       "message": "useless since the xiaomipart in common tree doesn\u0027t introduce dynamic thermal profile support",
       "revId": "a67101d643e2eb5a38035ee018c297b9ab371916",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f40fa5a4_f0029e0e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30196
+      },
+      "writtenOn": "2021-12-27T14:43:38Z",
+      "side": 1,
+      "message": "Thank you, dropping that one too.",
+      "parentUuid": "d4b01e56_f1be6783",
+      "revId": "a67101d643e2eb5a38035ee018c297b9ab371916",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
