@@ -16,6 +16,24 @@
       "message": "I don\u0027t think we need it. And eventually I think we should update it from latest lavender dump",
       "revId": "27a5cce6df091564cf20402bde609723ec449957",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "431dfa8a_5eefb79d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2021-12-27T15:26:04Z",
+      "side": 1,
+      "message": "After some tests done with Giovix we concluded that newcam is just too unstable, same situation with whyred",
+      "parentUuid": "9ba965ab_adf15fec",
+      "revId": "27a5cce6df091564cf20402bde609723ec449957",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
