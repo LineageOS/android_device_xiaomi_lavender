@@ -16,6 +16,24 @@
       "message": "missing common tree change..",
       "revId": "3f7e9d3f418581f0f1caaef850eafcaf10735463",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "80d39bc0_23513155",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30196
+      },
+      "writtenOn": "2021-12-27T14:46:10Z",
+      "side": 1,
+      "message": "Dropping it too.",
+      "parentUuid": "27e9e8d7_f4daa2cd",
+      "revId": "3f7e9d3f418581f0f1caaef850eafcaf10735463",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
