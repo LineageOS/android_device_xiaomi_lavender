@@ -34,6 +34,24 @@
       "parentUuid": "9a5b1bcd_6ce80763",
       "revId": "ae41526dfe0a4e33e5d415946c99a60e15297417",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "232e6f84_a8697282",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28705
+      },
+      "writtenOn": "2021-12-27T15:07:09Z",
+      "side": 1,
+      "message": "I mean soundtrigger stuffs in common tree should be deleted too if you really want to drop it. Plus this is not a real fix of \"ok google\" but a hack. With this change \"ok google\" will only work when the screen is on.",
+      "parentUuid": "d427c7fa_05902030",
+      "revId": "ae41526dfe0a4e33e5d415946c99a60e15297417",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
