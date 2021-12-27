@@ -70,6 +70,24 @@
       "parentUuid": "232e6f84_a8697282",
       "revId": "ae41526dfe0a4e33e5d415946c99a60e15297417",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b9d084e7_f2bda37b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28705
+      },
+      "writtenOn": "2021-12-27T15:15:44Z",
+      "side": 1,
+      "message": "It doesn\u0027t work in all xiaomi sdm660 devices. Also I don\u0027t think this commit should be merged. Or you think allow the existence of hacks in los device tree is fine and you are gonna drop soundtrigger in common tree? If so I’ll drop the -1s",
+      "parentUuid": "a76e4e20_bd9ace3c",
+      "revId": "ae41526dfe0a4e33e5d415946c99a60e15297417",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
