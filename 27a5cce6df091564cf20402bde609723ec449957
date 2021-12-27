@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ba965ab_adf15fec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28705
+      },
+      "writtenOn": "2021-12-27T15:19:27Z",
+      "side": 1,
+      "message": "I don\u0027t think we need it. And eventually I think we should update it from latest lavender dump",
+      "revId": "27a5cce6df091564cf20402bde609723ec449957",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
