@@ -16,6 +16,24 @@
       "message": "won\u0027t work due to missing dependencies",
       "revId": "518e10c13bf4d27368c3cd40bce7d6b97a726aa6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c070aeb_ac366ac7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30196
+      },
+      "writtenOn": "2021-12-27T14:43:19Z",
+      "side": 1,
+      "message": "Just confirmed with DRM Info, was about to drop that too. Thank you for your confirmation.",
+      "parentUuid": "174be7c3_1846e6a2",
+      "revId": "518e10c13bf4d27368c3cd40bce7d6b97a726aa6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
