@@ -16,7 +16,9 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    libstdc++.vendor
+    libstdc++.vendor \
+    libMegviiFacepp-0.5.2 \
+    libmegface
 
 # Consumerir
 BOARD_HAVE_IR := true
@@ -43,7 +45,8 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/xiaomi
 
 # USB
 PRODUCT_PACKAGES += \
