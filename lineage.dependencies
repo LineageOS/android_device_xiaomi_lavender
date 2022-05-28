@@ -2,5 +2,9 @@
   {
     "repository": "android_device_xiaomi_sdm660-common",
     "target_path": "device/xiaomi/sdm660-common"
+  },
+  {
+    "repository": "android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
   }
 ]
