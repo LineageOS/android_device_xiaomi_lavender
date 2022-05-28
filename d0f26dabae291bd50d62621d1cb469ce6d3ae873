@@ -33,6 +33,24 @@
       "message": "Tested by both dirty flashing from last update and by clean flashing it, Camera app (and other apps using it) stops working/force crashes.",
       "revId": "d0f26dabae291bd50d62621d1cb469ce6d3ae873",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "187c9d99_5106da47",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30196
+      },
+      "writtenOn": "2022-05-28T21:59:30Z",
+      "side": 1,
+      "message": "\u003e Tested by both dirty flashing from last update and by clean flashing it, Camera app (and other apps using it) stops working/force crashes.\n\nEdit: it was a problem of my building machine. Confirmed it works with latest sources.",
+      "parentUuid": "6650b5f8_0e86ee96",
+      "revId": "d0f26dabae291bd50d62621d1cb469ce6d3ae873",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
