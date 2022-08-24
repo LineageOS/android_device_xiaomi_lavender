@@ -16,6 +16,24 @@
       "message": "This can probably go to sdm660-common, apart from that lgtm",
       "revId": "31c32e109fe05e660c8319f6d38f9b94c207b35c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "03d73a72_52965261",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28572
+      },
+      "writtenOn": "2022-08-24T13:41:19Z",
+      "side": 1,
+      "message": "I could push it after excluded-input-devices will be added to common, btw only lavender has this input device",
+      "parentUuid": "574c3f2e_518020e1",
+      "revId": "31c32e109fe05e660c8319f6d38f9b94c207b35c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
