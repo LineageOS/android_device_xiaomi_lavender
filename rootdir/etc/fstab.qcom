@@ -25,4 +25,3 @@
 /devices/platform/soc/*.ssusb/*.dwc3/xhci-hcd.*.auto*    /storage/usbotg      vfat    nosuid,nodev                                                                                    wait,voldmanaged=usbotg:auto
 
 /dev/block/bootdevice/by-name/vendor                     /vendor              ext4    ro,barrier=1                                                                                    wait,recoveryonly
-/dev/block/bootdevice/by-name/boot                       /boot                emmc    defaults				                                                                                    defaults
