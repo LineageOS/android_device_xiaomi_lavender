@@ -16,7 +16,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    libstdc++.vendor \
+    libstdc++_vendor \
     libMegviiFacepp-0.5.2 \
     libmegface
 
