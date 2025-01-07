@@ -19,6 +19,10 @@ blob_fixups: blob_fixups_user_type = {
         .binary_regex_replace(b'\xdb\xf8\x00\x10\x08\x9a\x49\x6b\xc6\xe9\x04\x21', b'\xdb\xf8\x00\x10\x08\x9a\x89\x6c\xc6\xe9\x04\x21'),
     'vendor/lib/lib_lowlight.so': blob_fixup()
         .replace_needed('libstdc++.so', 'libstdc++_vendor.so'),
+    'vendor/lib/libmmcamera_faceproc.so': blob_fixup()
+        .clear_symbol_version('__aeabi_memcpy')
+        .clear_symbol_version('__aeabi_memset')
+        .clear_symbol_version('__gnu_Unwind_Find_exidx'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
