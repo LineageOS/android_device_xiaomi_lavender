@@ -13,6 +13,15 @@ from extract_utils.main import (
     ExtractUtilsModule,
 )
 
+namespace_imports = [
+    'device/xiaomi/sdm660-common',
+    'hardware/qcom-caf/sdm660',
+    'hardware/qcom-caf/wlan',
+    'hardware/xiaomi',
+    'vendor/qcom/opensource/display',
+    'vendor/xiaomi/sdm660-common',
+]
+
 blob_fixups: blob_fixups_user_type = {
     'vendor/lib/hw/camera.sdm660.so': blob_fixup()
         .binary_regex_replace(b'\xc1\x68\xd0\xe9\x0d\x20\xcd\xe9\x03\x20', b'\xc1\x68\xd0\xe9\x12\x20\xcd\xe9\x03\x20')
@@ -29,7 +38,7 @@ module = ExtractUtilsModule(
     'lavender',
     'xiaomi',
     blob_fixups=blob_fixups,
-    check_elf=False,
+    namespace_imports=namespace_imports,
 )
 
 if __name__ == '__main__':
