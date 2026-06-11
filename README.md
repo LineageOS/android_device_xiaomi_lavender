@@ -27,7 +27,6 @@ The Xiaomi Redmi Note 7 (codenamed _"lavender"_) is a mid-range smartphone from 
 
 ```
 #
-# Copyright (C) 2019 The LineageOS Project
-#
+# SPDX-FileCopyrightText: The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
