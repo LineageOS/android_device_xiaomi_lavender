@@ -29,6 +29,7 @@ TARGET_KERNEL_CONFIG += vendor/xiaomi/lavender.config
 BOARD_KERNEL_SEPARATED_DTBO := true
 
 # Manifest
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/framework_compatibility_matrix.xml
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Partitions
