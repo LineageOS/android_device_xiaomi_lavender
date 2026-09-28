@@ -16,6 +16,23 @@
       "message": "Follow Mike\u0027s advice he gave me here : https://review.lineageos.org/c/LineageOS/android_device_xiaomi_platina/+/505286",
       "revId": "3dcfed812a8dc646d219937902cf316605bdf8e3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff8ac9a2_3c25a747",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35591
+      },
+      "writtenOn": "2026-09-28T18:33:19Z",
+      "side": 1,
+      "message": "additionally, As per said by Giovanni Ricca some times ago, I\u0027m not sure signoffs are required in commit messages unless it\u0027s in kernel.",
+      "revId": "3dcfed812a8dc646d219937902cf316605bdf8e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
